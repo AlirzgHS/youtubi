@@ -1,0 +1,57 @@
+.card:hover{
+    transform: translateY(0%);
+}
+
+.watch-page .watch-icons{
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+}
+.watch-icons i:hover{
+    cursor: pointer;
+
+}
+
+.watch-page #more{
+    display: none;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.card-inner{
+    display: none;
+}
+.public-comments .card .btn {
+    background-color: red;
+    border: red;
+    color: white;
+}
+
+.public-comments .card .btn:hover{
+    background-color: rgb(200, 0, 0);
+}
+
+time{
+    left: 24px !important;
+}
+
+/* .watch-page .fa-play-circle{
+    right: 40px !important;
+} */
+
+@media (min-width: 992px){
+    time {
+        font-size: 13px ;
+    }
+    .fa-play{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1145px){
+    #MyBtn{
+        margin-bottom: 60px !important;
+    }
+}
