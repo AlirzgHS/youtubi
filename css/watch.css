@@ -5,7 +5,6 @@
 .watch-page .watch-icons{
     position: absolute;
     bottom: 5px;
-    right: 20px;
 }
 .watch-icons i:hover{
     cursor: pointer;
@@ -35,6 +34,10 @@
 
 time{
     left: 24px !important;
+}
+
+div.dropdown-menu.show{
+    inset: 0px 85px auto auto !important;
 }
 
 /* .watch-page .fa-play-circle{

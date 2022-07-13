@@ -40,12 +40,24 @@ button:hover{
 .navbar .navbar-nav .active>.nav-link{
     color: #fff;
     background-color: red;
+    border: 1 solid;
+    border-radius: 5px;
 }
 
 .navbar .login{
     color: red !important;
-    
+    padding: 6px;
+    transition: ease 0.5;
 }
+
+.navbar .login:hover{
+    background-color: red ;
+    color: #fff !important;
+    border: 1 solid;
+    border-radius: 5px;
+    padding: 6px;
+}
+
 .modal .modal-header .close:hover{
     color: red !important;
     background-color: transparent !important;
@@ -181,7 +193,7 @@ time{
 
 @media (max-width: 1147px) {
     /* اخفاء حقل البحث */
-    .navbar .collapse .form-inline {
+    .navbar .collapse .form-hide {
         display: none;
     } 
     /* اظهار ايقونة البحث */
